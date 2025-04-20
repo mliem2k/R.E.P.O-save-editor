@@ -1,0 +1,21 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "repo-save-editor",
+  "outputfilename": "repo-save-editor",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "mliem2k",
+    "email": "michael.liem2k@gmail.com"
+  },
+  "info": {
+    "companyName": "mliem",
+    "productName": "R.E.P.O Save Editor",
+    "productVersion": "1.0.0",
+    "copyright": "mliem © 2025",
+    "comments": "A tool for editing R.E.P.O game save files",
+    "icon": "icon.ico"
+  }
+}
